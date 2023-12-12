@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Numbers1NwithStep3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+      int x = Integer.parseInt(scanner.nextLine());
+
+      for (int z = 1; z <= x ; z += 3){
+          System.out.println(z);
+      }
+
+
+
+
+
+    }
+}
